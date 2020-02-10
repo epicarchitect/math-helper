@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+        <TextView
+            android:text="m = "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_m"
+            android:text=""
+            android:inputType="number"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="n = "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_n"
+            android:text=""
+            android:inputType="number"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+    <include layout="@layout/calc_fragment"/>
+
+
+</LinearLayout>

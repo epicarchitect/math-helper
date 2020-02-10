@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MathHelper</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="combinatorics">Комбинаторика</string>
+    <string name="factorial">Факториал</string>
+    <string name="distribution">Распределение</string>
+    <string name="combination">Сочетание</string>
+
+    <string name="statistics">Статистика</string>
+    <string name="statistics_analyzer">Анализ статистики</string>
+
+    <string name="theory_of_chances">Теория вероятности</string>
+    <string name="bernoulli">Формула Бернули</string>
+    <string name="local_laplace">Локальная формула Лапласа</string>
+    <string name="integral_laplace">Интегральная формула Лапласа</string>
+    <string name="math_wait">Математическое ожидание</string>
+
+    <string name="matrix">Матрицы</string>
+    <string name="determinant">Поиск определителя</string>
+    <string name="gauss">Метод Гаусса</string>
+    <string name="cramer">Метод Крамера</string>
+
+    <string-array name="graphics">
+        <item>График частот</item>
+        <item>График накопленных частот</item>
+        <item>График частостей</item>
+        <item>График накопленных частостей</item>
+    </string-array>
+
+</resources>

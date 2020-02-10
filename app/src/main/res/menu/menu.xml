@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/combinatorics">
+        <menu>
+            <item
+                android:id="@+id/factorial"
+                android:title="@string/factorial"/>
+            <item
+                android:id="@+id/distribution"
+                android:title="@string/distribution"/>
+            <item
+                android:id="@+id/combination"
+                android:title="@string/combination"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/statistics">
+        <menu>
+            <item
+                android:id="@+id/statistics_analyzer"
+                android:title="@string/statistics_analyzer"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/theory_of_chances">
+        <menu>
+            <item
+                android:id="@+id/bernoulli"
+                android:title="@string/bernoulli"/>
+            <item
+                android:id="@+id/local_laplace"
+                android:title="@string/local_laplace"/>
+            <item
+                android:id="@+id/integral_laplace"
+                android:title="@string/integral_laplace"/>
+            <item
+                android:id="@+id/math_wait"
+                android:title="@string/math_wait"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/matrix">
+        <menu>
+            <item
+                android:id="@+id/determinant"
+                android:title="@string/determinant"/>
+            <item
+                android:id="@+id/gauss"
+                android:title="@string/gauss"/>
+            <item
+                android:id="@+id/cramer"
+                android:title="@string/cramer"/>
+        </menu>
+    </item>
+
+</menu>
